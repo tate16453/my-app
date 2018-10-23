@@ -8,7 +8,7 @@ class App extends Component {
     return (
       <div className="App">
         <div className="image">
-          <img src={require('./assets/images/Group 2.png')} class='center'/>
+          <img src={require('./assets/images/Group 4.png')} class='center'/>
         </div>
       </div>
     );

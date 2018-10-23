@@ -29,15 +29,27 @@ img {
 }
 
 .center {
-  position: absolute;
+  position: fixed;
   margin-top: 23%;
-  margin-left: 17%;
-  margin-right: 17%;
+  margin-left: 15%;
+  margin-right: auto;
 }
 
 /* Responsive Styling */
 @media screen and (max-width: 767px) {
     .App {
         grid-template-columns: 5% auto 5%;
+    }
+}
+
+@@media (min-width: 768px) {
+    .App {
+        margin: 3rem 0 0 0;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .App {
+        margin: 3rem 0 0 0;
     }
 }
