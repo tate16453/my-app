@@ -1,9 +1,10 @@
 .App {
     background: url('./assets/images/background_image.jpg') no-repeat center fixed;
+    background-attachment: fixed;
     background-size: cover;
     height: 100vh;
     display: grid;
-    grid-template-columns: 10% 50% 40%;
+    grid-template-columns: 5% 30% 30% 30% 5%;
     grid-template-rows: 3.5rem auto;
 }
 
@@ -22,17 +23,18 @@
 }
 
 img {
-  display: inline-block;
+  display: fixed;
   max-width: 100%;
-  width: auto\9;
+  width: 60%;
   height: auto;
 }
 
 .center {
   position: fixed;
-  margin-top: 23%;
-  margin-left: 15%;
-  margin-right: auto;
+  margin-top: 20%;
+  margin-bottom: 50%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 /* Responsive Styling */
@@ -43,12 +45,6 @@ img {
 }
 
 @@media (min-width: 768px) {
-    .App {
-        margin: 3rem 0 0 0;
-    }
-}
-
-@media (max-width: 767.98px) {
     .App {
         margin: 3rem 0 0 0;
     }
