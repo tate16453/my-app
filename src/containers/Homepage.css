@@ -1,0 +1,23 @@
+/* CSS for the button on the home page*/
+
+.image {
+  display: inline-block;
+  max-width: auto;
+  margin-top: 50%;
+  margin: auto;
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  width: 55%;
+  height: auto;
+}
+
+.center {
+  position: fixed;
+  margin-top: 20%;
+  margin-left: 16%;
+  margin-right: 15%;
+}
