@@ -1,16 +1,15 @@
 import React, { Component } from 'react';
-import './bootstrap-4.1.3-dist/bootstrap.min.css'
+//import './bootstrap-4.1.3-dist/bootstrap.min.css'
 import './App.css';
 import Layout from './components/Layout/Layout';
+import Homepage from '../src/containers/Homepage.js';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <Layout>
-        <div className="image">
-          <img src={require('./assets/images/Group 4.png')} class='center' alt='campus bar'/>
-        </div>
+          <Homepage/>
         </Layout>
       </div>
     );
