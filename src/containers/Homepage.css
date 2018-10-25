@@ -4,14 +4,14 @@
   display: inline-block;
   max-width: auto;
   margin-top: 50%;
-  margin: auto;
+  margin: 0;
   cursor: pointer;
 }
 
 img {
   display: block;
   max-width: 100%;
-  width: 55%;
+  width: 100%;
   height: auto;
 }
 
